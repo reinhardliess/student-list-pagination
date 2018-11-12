@@ -4,6 +4,9 @@
 # Temporary backup files
 *.bak
 
+# examples folder
+examples/example-*
+
 # End of Rard
 
 # Logs
