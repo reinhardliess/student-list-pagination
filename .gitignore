@@ -5,7 +5,10 @@
 *.bak
 
 # examples folder
-examples/example-*
+examples/example-*.html
+
+# additonal files, only local
+files/
 
 # End of Rard
 
