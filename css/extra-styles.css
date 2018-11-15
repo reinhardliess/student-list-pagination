@@ -1,0 +1,26 @@
+/* styles for error message here */
+
+.js-not-found {}
+
+  div.js-not-found {
+    width: 50%;
+    height: 80px;
+    margin: 30px auto;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(253,232,226,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+  }
+  
+  .js-not-found p {
+    color: #d90000;
+    text-align: center;
+  }
+  
+  .js-not-found span {
+    color: #67021b;
+  }
+

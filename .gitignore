@@ -10,6 +10,9 @@ examples/example-*.html
 # additonal files, only local
 files/
 
+# Autosave files 
+*.*~
+
 # End of Rard
 
 # Logs
