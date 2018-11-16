@@ -133,9 +133,9 @@ const appendPageLinks = listItems => {
 const initBrowse = () => {
 
   /* NB:  when coming from search mode, the class js-found might be attached
-          to all the li elements found the last time.
+          to all the <li> elements found the last time.
           There's no need to remove them, the search mode will set them correctly
-          during a new search and they have no relevance for browse mode 
+          during a new search and they have no relevance for browse mode. 
   */
 
   let listStudents = document.querySelectorAll('li.student-item');  
@@ -223,7 +223,7 @@ const filterList = () => {
       // at least one student was found, remove error message, if shown
       removeError();
       
-      // found student is on first page, show
+      // if found student is on first page, show
       li.style.display = ++numFound <= NUM_ITEMS_PER_PAGE ? '' : 'none';
     } else {
       // if not found always hide

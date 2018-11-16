@@ -1,6 +1,6 @@
 # JavaScript Techdegree Project #2: Pagination & Filtering
 
-The goal of this project was to enhance the usability of a long student list (of undetermined length) by splitting it up in pages of 10 students, providing the appropriate number of buttons for navigation.
+The goal of this project was to enhance the usability of a long student list (of undetermined length) by splitting it up in pages of 10 students each, providing the appropriate number of buttons for navigation.
 
 It follows the principles of [unobtrusive JavaScript](https://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript) and [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement), so that the website is still usable if JavaScript is turned off or unavailable.
 
