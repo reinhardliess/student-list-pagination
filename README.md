@@ -24,10 +24,11 @@ The goal of this project was to enhance the usability of a long student list (of
 
 ### Some Additional remarks
 
-* The number of students per page was stored in `NUM_ITEMS_PER_PAGE` to make it easier to potentially change it in the future.
+* The number of students per page is stored in `NUM_ITEMS_PER_PAGE` to make it easier to potentially change it in the future.
 * The function `filterList()` adds/removes the class `js-found` conditionally to/from respective `<li>` elements and feeds a DOM collection based on that class to the pagination functions. 
 * The search is activated by typing (instant search), pressing `enter` or clicking the search button (necessary in case content is pasted into the input field). ESC clears the search input field.
 * If there's no search result an error message is displayed (styles can be found in `extra-styles.css`).
+* Tested with Chrome, Firefox & Opera
     
     
 ### Some additional coding conventions
