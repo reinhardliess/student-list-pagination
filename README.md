@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal of this project was to enhance the usability of a long student list (of undetermined length) by splitting it up in pages of 10 students each, providing the appropriate number of buttons for navigation.
+Browsing long lists doesn't provide a good user experience, so this app enhances the usability of a web page by paginating a long list of students into groups of ten students, dynamically adding buttons to the bottom of the page as needed. It does this by using unobtrusive JavaScript and progressive enhancement, so that the web site still works if JavaScript is turned off or isn't working properly. The instant search box filters the student directory in real time, creating the appropriate number of pagination buttons; if there's no search result, an error message is displayed on the page.
 
 A live version of this project can be found [here](https://rliess.github.io/student-list-pagination/).
 
@@ -14,14 +14,14 @@ A live version of this project can be found [here](https://rliess.github.io/stud
 - If there's no search result an error message is displayed (styles can be found in `extra-styles.css`).
 - Tested with Chrome, Firefox & Opera
 
+## Installation
+
+- Download or clone from Github
+- Open `index.html` with your favorite browser
+
 ## Technologies Used
 
 - DOM traversal
 - DOM manipulation
 - DOM event handlers
 
-### Some additional coding conventions
-
-- Constants (there's only one, see above) are all uppercase, spaced out with underscores for readability
-- In for-loop conditions, the length of collections is cached in a variable.
-- Additional spaces around nested function calls.
